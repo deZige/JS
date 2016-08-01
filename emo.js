@@ -15,27 +15,27 @@ $(function() {
 			$(this).html($(this).html().replace(/<br ?\/?>(:|;|=|\^)/ig, "<br> $1").replace(emo, " <img src='" + imgRep + "' class='emo delayLoad' alt='" + emoKey + "' />"));
 		});
 	}
-	emo(/\s:aa/g, "http://dezige-in.googlecode.com/svn/trunk/ZigeMo/anger.gif", ":aa");
-	emo(/\s:bo/g, "http://dezige-in.googlecode.com/svn/trunk/ZigeMo/boogie.gif", ":bo");
-	emo(/\s:bm/g, "http://dezige-in.googlecode.com/svn/trunk/ZigeMo/boom.gif", ":bm");
-	emo(/\s:cl/g, "http://dezige-in.googlecode.com/svn/trunk/ZigeMo/clap.gif", ":cl");
-	emo(/\s:co/g, "http://dezige-in.googlecode.com/svn/trunk/ZigeMo/confused.gif", ":co");
-	emo(/\s:cry/g, "http://dezige-in.googlecode.com/svn/trunk/ZigeMo/crying.gif", ":cry");
-	emo(/\s:gal/g, "http://dezige-in.googlecode.com/svn/trunk/ZigeMo/gallery.gif", ":gal");
-	emo(/\s:giv/g, "http://dezige-in.googlecode.com/svn/trunk/ZigeMo/give-up.gif", ":giv");
-	emo(/\s:id/g, "http://dezige-in.googlecode.com/svn/trunk/ZigeMo/idontknow.gif", ":id");
-	emo(/\s:jp/g, "http://dezige-in.googlecode.com/svn/trunk/ZigeMo/jawdrop.gif", ":jp");
-	emo(/\s:lov/g, "http://dezige-in.googlecode.com/svn/trunk/ZigeMo/love.gif", ":lov");
-	emo(/\s:ninja/g, "http://dezige-in.googlecode.com/svn/trunk/ZigeMo/ninjabattle.gif", ":ninja");
-	emo(/\s:nod/g, "http://dezige-in.googlecode.com/svn/trunk/ZigeMo/nod.gif", ":nod");
-	emo(/\s:nw/g, "http://dezige-in.googlecode.com/svn/trunk/ZigeMo/notworthy.gif", ":nw");
-	emo(/\s:par/g, "http://dezige-in.googlecode.com/svn/trunk/ZigeMo/party.gif", ":par");
-	emo(/\s:pc/g, "http://dezige-in.googlecode.com/svn/trunk/ZigeMo/pc.gif", ":pc");
-	emo(/\s:sy/g, "http://dezige-in.googlecode.com/svn/trunk/ZigeMo/shameonyou.gif", ":sy");
-	emo(/\s:wow/g, "http://dezige-in.googlecode.com/svn/trunk/ZigeMo/wow.gif", ":wow");
-	emo(/\s:yc/g, "http://dezige-in.googlecode.com/svn/trunk/ZigeMo/yahoo-coffee.gif", ":yc");
-	emo(/\s:yay/g, "http://dezige-in.googlecode.com/svn/trunk/ZigeMo/yay.gif", ":yay");
-	emo(/\s:tp/g, "http://dezige-in.googlecode.com/svn/trunk/ZigeMo/top.gif", ":tp");
+	emo(/\s:aa/g, "https://cdn.rawgit.com/deZige/Gambar/master/anger.gif", ":aa");
+	emo(/\s:bo/g, "https://cdn.rawgit.com/deZige/Gambar/master/boogie.gif", ":bo");
+	emo(/\s:bm/g, "https://cdn.rawgit.com/deZige/Gambar/master/boom.gif", ":bm");
+	emo(/\s:cl/g, "https://cdn.rawgit.com/deZige/Gambar/master/clap.gif", ":cl");
+	emo(/\s:co/g, "https://cdn.rawgit.com/deZige/Gambar/master/confused.gif", ":co");
+	emo(/\s:cry/g, "https://cdn.rawgit.com/deZige/Gambar/master/crying.gif", ":cry");
+	emo(/\s:gal/g, "https://cdn.rawgit.com/deZige/Gambar/master/gallery.gif", ":gal");
+	emo(/\s:giv/g, "https://cdn.rawgit.com/deZige/Gambar/master/give-up.gif", ":giv");
+	emo(/\s:id/g, "https://cdn.rawgit.com/deZige/Gambar/master/idontknow.gif", ":id");
+	emo(/\s:jp/g, "https://cdn.rawgit.com/deZige/Gambar/master/jawdrop.gif", ":jp");
+	emo(/\s:lov/g, "https://cdn.rawgit.com/deZige/Gambar/master/love.gif", ":lov");
+	emo(/\s:ninja/g, "https://cdn.rawgit.com/deZige/Gambar/master/ninjabattle.gif", ":ninja");
+	emo(/\s:nod/g, "https://cdn.rawgit.com/deZige/Gambar/master/nod.gif", ":nod");
+	emo(/\s:nw/g, "https://cdn.rawgit.com/deZige/Gambar/master/notworthy.gif", ":nw");
+	emo(/\s:par/g, "https://cdn.rawgit.com/deZige/Gambar/master/party.gif", ":par");
+	emo(/\s:pc/g, "https://cdn.rawgit.com/deZige/Gambar/master/pc.gif", ":pc");
+	emo(/\s:sy/g, "https://cdn.rawgit.com/deZige/Gambar/master/shameonyou.gif", ":sy");
+	emo(/\s:wow/g, "https://cdn.rawgit.com/deZige/Gambar/master/wow.gif", ":wow");
+	emo(/\s:yc/g, "https://cdn.rawgit.com/deZige/Gambar/master/coffee.gif", ":yc");
+	emo(/\s:yay/g, "https://cdn.rawgit.com/deZige/Gambar/master/yay.gif", ":yay");
+	emo(/\s:tp/g, "https://cdn.rawgit.com/deZige/Gambar/master/top.gif", ":tp");
 
 	var one = 0; // Show alert one times!
 
