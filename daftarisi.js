@@ -1,7 +1,13 @@
+/*!
+ * Blogger Tabbed Style Table of Content Widget by Taufik Nurrohman
+ * Free for change but keep the original attribution.
+ * URL: https://plus.google.com/108949996304093815163/about
+ */
+!
 function (a, b) {
     var c = (new Date).getTime(),
         d = {
-            blogUrl: "https://dezige-in.blogspot.com",
+            blogUrl: "http://dte-feed.blogspot.com",
             containerId: "tabbed-toc",
             activeTab: 1,
             showDates: !1,
